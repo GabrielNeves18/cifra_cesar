@@ -1,6 +1,6 @@
 def menu():
     print("O que você deseja? \n1) Criptografia \n2) Decriptografia")
-    escolha = int(input("> "))
+    escolha = int(input(">>>"))
     if escolha == 1:
         frase = input("Digite digite a string: ")
         cifra = int(input("Digite o valor de rotação entre 1 e 9: "))
