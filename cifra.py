@@ -1,11 +1,11 @@
 def menu():
     print("O que você deseja? \n1) Criptografia \n2) Decriptografia")
-    escolha = int(input(">>>"))
-    if escolha == 1:
+    escolha = input(">>>")
+    if escolha == '1':
         frase = input("Digite digite a string: ")
         cifra = int(input("Digite o valor de rotação entre 1 e 9: "))
         cripto(frase, cifra)
-    elif escolha == 2:
+    elif escolha == '2':
         decripto()
     else:
         print("Opção inválida")
@@ -38,4 +38,4 @@ def decripto():
     print(''.join(mensagem))
     
 menu()
-
+print("OLA")
