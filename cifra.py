@@ -33,8 +33,8 @@ def decripto():
         if letra == ' ':
             mensagem.append(letra)
         else:
-            l = ord(letra)- rota
-            mensagem.append(chr(l))
+            mensagem.append(chr(ord(letra)- rota))
+            
     print(''.join(mensagem))
     
 menu()
