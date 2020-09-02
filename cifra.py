@@ -37,5 +37,5 @@ def decripto():
             
     print(''.join(mensagem))
     
-print("Testando")
+
 menu()
