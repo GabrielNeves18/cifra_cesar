@@ -38,4 +38,5 @@ def decripto():
     print(''.join(mensagem))
     print("OLA")
     
+
 menu()
